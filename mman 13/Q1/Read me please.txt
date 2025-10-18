@@ -1,0 +1,4 @@
+Hi, 
+The exam file is the file "exam.txt" in this folder I use IntelliJ so it work only when it is here. 
+
+Thank you for reading :) 
