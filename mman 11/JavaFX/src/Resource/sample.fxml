@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox id="Vbox" fx:id="vbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myControllerClass">
+   <children>
+      <ToolBar id="tool" fx:id="tool" prefHeight="40.0" prefWidth="200.0">
+        <items>
+          <Button id="FillMatrix" accessibleRole="TEXT_AREA" mnemonicParsing="false" onMouseClicked="#actionStarted" text="FillMatrix" />
+        </items>
+      </ToolBar>
+      <Canvas id="Matrix" fx:id="canvas" height="361.0" width="600.0" />
+   </children>
+</VBox>
